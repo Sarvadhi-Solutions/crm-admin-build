@@ -1,0 +1,1 @@
+import{j as t}from"./index-f40e4d75.js";import{h as i}from"./Views-4f4cfc12.js";const c=r=>{const{userAuthority:o=[],authority:e=[],children:s}=r,h=i(o,e);return t.jsx(t.Fragment,{children:h?s:null})};export{c as A};

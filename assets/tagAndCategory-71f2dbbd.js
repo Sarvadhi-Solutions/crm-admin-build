@@ -1,0 +1,1 @@
+function r(a){return a.map(t=>({type:"group",name:t.categoryName,items:t.tags.map(e=>({value:e.id,label:e.tagName}))}))}function o(a){return a==null?void 0:a.map(t=>({label:t.categoryName,options:t.tags.map(e=>({value:e.id,label:e.tagName}))}))}function m(a){return a.map(n=>({value:n.id,label:n.categoryName}))}export{r as a,m as c,o as t};

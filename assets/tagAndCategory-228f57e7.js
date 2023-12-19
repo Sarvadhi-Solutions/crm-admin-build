@@ -1,0 +1,1 @@
+function r(a){return a==null?void 0:a.map(e=>({type:"group",name:e.categoryName,items:e.tags.map(t=>({value:t.id,label:t.tagName}))}))}function o(a){return a==null?void 0:a.map(e=>({label:e.categoryName,options:e.tags.map(t=>({value:t.id,label:t.tagName}))}))}function m(a){return a.map(n=>({value:n.id,label:n.categoryName}))}export{r as a,m as c,o as t};
